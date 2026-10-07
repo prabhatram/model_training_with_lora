@@ -1,0 +1,6 @@
+{"prompt": "I changed my password and VPN stopped working. What should I do?", "expected_points": ["disconnect and reconnect VPN", "updated credentials", "internet connection"]}
+{"prompt": "How long will my unreleased print job remain?", "expected_points": ["24 hours"]}
+{"prompt": "A guest wants Wi-Fi. Which network?", "expected_points": ["Campus-Guest"]}
+{"prompt": "My account is locked after failed logins. What next?", "expected_points": ["wait 15 minutes", "IT Service Desk if still locked"]}
+{"prompt": "Should I email my password to support?", "expected_points": ["no", "never send password"]}
+{"prompt": "I have only one copy of coursework on a lab PC. Is that okay?", "expected_points": ["no", "approved cloud storage or backup"]}

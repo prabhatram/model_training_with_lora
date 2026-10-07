@@ -1,0 +1,51 @@
+{
+  "domain_corpus_raw.jsonl": [
+    {
+      "id": "doc-0074",
+      "problem": "contradiction",
+      "recommended_fix": "Remove or replace with the approved 15-minute temporary-lock guidance."
+    },
+    {
+      "id": "doc-0312",
+      "problem": "secret",
+      "recommended_fix": "Delete the credential-bearing record; never train on secrets. Rotate the credential if it were real."
+    },
+    {
+      "id": "doc-0703",
+      "problem": "garbled",
+      "recommended_fix": "Remove or rewrite from a trusted source; do not guess missing meaning."
+    },
+    {
+      "id": "doc-1000",
+      "problem": "wrong_domain",
+      "recommended_fix": "Remove because it is unrelated to university IT support."
+    }
+  ],
+  "sft_raw.jsonl": [
+    {
+      "id": "sft-0042",
+      "problem": "empty_completion",
+      "recommended_fix": "Remove the row or supply a verified target response."
+    },
+    {
+      "id": "sft-0189",
+      "problem": "unsafe_secret_request",
+      "recommended_fix": "Replace with a response that tells users never to share passwords."
+    },
+    {
+      "id": "sft-0378",
+      "problem": "contradiction",
+      "recommended_fix": "Replace with the approved network guidance: students/staff use Campus-Secure; guests use Campus-Guest."
+    },
+    {
+      "id": "sft-0512",
+      "problem": "duplicate_conflict",
+      "recommended_fix": "Replace with the approved 15-minute lock guidance or remove the conflicting example."
+    },
+    {
+      "id": "sft-0699",
+      "problem": "off_topic",
+      "recommended_fix": "Remove because it is outside the specialization domain."
+    }
+  ]
+}

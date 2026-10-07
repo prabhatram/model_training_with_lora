@@ -1,0 +1,8 @@
+{"id": "challenge-001", "prompt": "At 4 PM yesterday I sent a page to the printer and forgot it. It is 3 PM now. Must I submit it again?", "expected_points": ["less than 24 hours", "normally still available"]}
+{"id": "challenge-002", "prompt": "It is now 5 PM instead. What changes about that print job?", "expected_points": ["more than 24 hours", "deleted", "submit again"]}
+{"id": "challenge-003", "prompt": "My visitor cannot use Campus-Secure. Should I give them my username and password?", "expected_points": ["do not share password", "Campus-Guest"]}
+{"id": "challenge-004", "prompt": "Campus-Secure works for the person beside me. I mistyped my password many times six minutes ago and now login fails. What next?", "expected_points": ["temporary lock", "wait until 15 minutes", "IT if still locked"]}
+{"id": "challenge-005", "prompt": "I changed my password, tried the old one repeatedly, got locked out, and need VPN access. Give me the order of actions.", "expected_points": ["wait 15 minutes", "updated credentials", "VPN", "IT if still locked"]}
+{"id": "challenge-006", "prompt": "I have sensitive research data and a personal cloud account with lots of space. Is capacity the main consideration?", "expected_points": ["no", "approved university research storage"]}
+{"id": "challenge-007", "prompt": "An unexpected IT-looking attachment asks me to reply with my password if it will not open. What should I do?", "expected_points": ["verify before opening", "never share password", "phishing report"]}
+{"id": "challenge-008", "prompt": "My internet itself is down. I started VPN because I thought it might restore connectivity. Will that work?", "expected_points": ["no", "internet required before VPN"]}
